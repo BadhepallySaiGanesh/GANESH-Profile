@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en"> 
+<head> 
+    <meta charset="UTF-8"> 
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+    <meta name="viewport"content="width=device-width, initial-scale=1.0"> 
+    <link rel="stylesheet" href="resume.css">
+    <title>my cv</title>
+    <style>
+        * { 
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box; 
+} 
+body { 
+    background-color: rgb(253, 254, 255); 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+} 
+.full { 
+    width: 50%; 
+    max-width: 1000px; 
+    min-height: 100px; 
+    background-color: rgb(245, 239, 231); 
+    color: white;
+    margin: 0px; 
+    display: grid; 
+    grid-template-columns: 2fr 4fr; 
+} 
+.left { 
+    position: initial; 
+    background-color: rgb(1, 12, 14); 
+    padding: 20px; 
+} 
+.right { 
+    position: initial; 
+    background-color: rgb(55, 166, 176); 
+    padding: 20px; 
+} 
+.image, .Contact, .Skills,.Language, .Hobbies, .title,  
+.Summary, .Experience, .Education, .project { 
+    margin-bottom: 30px; 
+} 
+.h2 { 
+
+    background-color: rgb(4,96,150);
+}
+.nn{
+    color: yellow;
+}
+    </style>
+</head> 
+<body> 
+    <div class="full"> 
+        <div class="left"> 
+            <div class="image"> 
+                <img src="./images/ganesh.jpg" style="width:140px;height:100px;" class="img-thumbnail"> 
+            </div> 
+            <div class="Contact"> 
+                <h2>Contact</h2> 
+                <p><b>Email id:</b>bganeshgoud007@gmail.com</p> 
+                <p><b>Mobile no :</b>9666066540</p> 
+            </div> 
+            <div class="Skills"> 
+                <h2>Skills</h2> 
+                <ul> 
+                    <li><b>Programming Languages :  
+                      Python, C++</b></li> 
+                    <li><b>Frontend : HTML5, CSS3,  
+                      JavaScript, React,Bootstrap</b></li> 
+                </ul> 
+            </div>
+            <div class="Language"> 
+                <h2>Language</h2> 
+                <ul> 
+                    <li>English</li> 
+                    <li>Hindi</li>
+                    <li>Telugu</li> 
+                </ul> 
+            </div> 
+            <div class="Hobbies"> 
+                <h2>Hobbies</h2> 
+                <ul> 
+                    <li>Playing cricket</li>
+                    <li>travelling</li>
+                    <li>cooking</li> 
+                    <li>music</li> 
+                </ul> 
+            </div> 
+        </div> 
+        <div class="right"> 
+            <div class="name"> 
+                <h1 class="nn">Badepally Sai Ganesh</h1> 
+            </div> 
+            <div class="title"> 
+                <p>Font-end developer</p> 
+            </div> 
+            <div class="Summary"> 
+                <h2>Summary</h2> 
+                <p>To secure a challenging position in a reputable organization to expand my learning knowledge and skill </p> 
+            </div>  
+            <div class="Education"> 
+                <h2>Education</h2> 
+                <table class="table"> 
+                    <tr> 
+                        <th>University/college  </th> 
+
+                        <th>Passing year  </th> 
+            
+                        <th>percentage/cgpa</th> 
+                    </tr> 
+                    <tr> 
+                        <td>1.vidya jyothi institute of techonology</td> 
+                        <td>2022</td> 
+                        <td>7.99 CGPA</td> 
+                    </tr> 
+                    <tr> 
+                        <td>2.Mahaveer institute of science and techonology</td> 
+                        <td>2019</td> 
+                        <td>81.2%</td> 
+                    </tr> 
+                    <tr>
+                        <td>3.Adarsha vidyalayam high school</td>
+                        <td>2016</td>
+                        <td>77%</td>
+                    </tr>
+                </table> 
+            </div> 
+            <div class="certificates">
+                <h2>Certificates</h2>
+                <ul>
+                    <li><b>Transmission corporation of telangana itd</b></li>
+                    <li><b>Under Grpond Fault Detection</b></li>
+                </ul>
+            </div>
+            <br><br>
+            <div class="project"> 
+                <ul> 
+                    <li> 
+                        <h2>Project1</h2> 
+                        <p>Under Ground Fault detation by using microcontrool</p> 
+                    </li> 
+                    <li> 
+                        <h2>Project2</h2> 
+                        <p>Automatic smart street lighting</p> 
+                    </li>
+                    <li>
+                        <h2>Mojor Project</h2>
+                        <p>Electric Vehicle(scooter)</p>
+                    </li> 
+                </ul> 
+            </div> 
+        </div> 
+    </div> 
+</body> 
+</html>
